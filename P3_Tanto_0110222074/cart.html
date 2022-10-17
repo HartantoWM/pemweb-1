@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan Barang</title>
+</head>
+
+<header style="margin-top: 40px;display: flex; justify-content: center; margin-bottom: 25px;">
+    <div style="text-align: center; padding: 15px; width: 80%; display: 
+    flex;justify-content: left; background-color: white;border-radius: 4px;">
+    <nav style="font-size: 1.1em; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        
+        <a style="margin-left: 20px; margin-right: 170px;" href="">Home </a>|
+        <a style="margin-right: 170px;" href="">Generate Link </a>|
+        <a style="margin-right: 170px;"href="">Transaction History </a>|
+        <a style="margin-right: 170px;"href="">Policy </a>|
+        <a href="">Logout</a>
+    </nav>    
+</div>
+</header>
+
+<body style="background-color: #EDEDED;">
+
+    <main style="display: flex; justify-items: center;width: 82%; margin-left: 135px;
+    background-color: white;">
+    <main>
+    <aside style="margin-right: 40px; width: 20%; margin-left: 40px;margin-top: 50px;">
+    <img style="border: 2px solid black; border-radius: 5px;" src="Asset/Onta.jpg" alt="" width="280px" height="300px" >
+    <br>
+    <input type="file" name="" id="id_file" value="Uploud picture">
+</aside>
+</main>
+
+    <main style="font-size: 1.3em; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+        <form action="Success.html">
+    <ul type="none">
+        <li>
+            <label style="margin-right: 100px;" for="id_title">Title Here :</label>
+            
+            <input style="width: 450px;" type="text" name="title" id="id_title" placeholder="">
+        </li>
+
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 83px;" for="Id_description">Description :</label>
+            <textarea name="" id="id_description" cols="59" rows="10" placeholder="Year : 2009 
+
+
+
+Model : 
+
+
+
+Conditiont :"></textarea>
+        </li>
+
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 36px;" for="Id_number">Account Number :</label>
+            <input style="width: 450px;" type="tel" name="" id="Id_number" placeholder="">
+        </li>
+
+        <li>
+            <label style="margin-right: 140px;" for="id_bank">Bank :</label>
+            <select style="width: 458px;" name="" id="id_bank">
+                <option value="BRI">BRI</option>
+                <option value="BCA">BCA</option>
+                <option value="BTN" selected>BTN</option>
+                <option value="Mandiri">Mandiri</option>
+                <option value="Bank Mega">Bank Mega</option>
+                <option value="CIMB NIAGA">CIMB NIAGA</option>
+            </select>
+        </li>
+
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 48px;" for="Id_hold">Account Holder :</label>
+            <input style="width: 450px;" type="text" name="" id="Id_hold">
+        </li>
+
+                
+        <li style="margin-top: 5px;">
+            <label style="margin-right: 82px;" for="Id_trans">Transaction :</label>
+            <input  style="width: 50px;" type="number" name="" id="Id_trans" min="0">
+            <br>
+            <span style="font-size: 0.7em;font-family: 'Times New Roman', Times, serif; margin-left: 215px;color: green; ">* if the transtraction is for 3 person, chosee 3 from the drop-down list</span> 
+
+            <li>
+                <span style="font-size: 0.7em; font-family: 'Times New Roman', Times, serif;color: green;">
+            <input style="margin-left: 215px;" type="checkbox" name="" id="id_phone" checked>
+            <label for="id_phone">Send To Mobile Phone</label>
+        </span>
+        </li>
+
+        <li>
+            <span style="font-size: 0.7em; font-family: 'Times New Roman', Times, serif;color: green;">
+        <input style="margin-left: 215px;" type="checkbox" name="" id="id_mail" checked>
+        <label for="id_mail">Send To Email</label>
+    </span>
+    </li>
+
+        </li>
+
+        <li>
+            <label for="id_tel">Send To Mobile Phone :</label>
+            <input style="width: 450px;" type="tel" name="" id="Id_ntel" placeholder="">
+            <br>
+            <label style="margin-right: 74px;" for="email">Send To Email :</label>
+            <input style="width: 450px;" type="email" name="" id="email" placeholder="">
+            <br><br><br>
+
+            <div> 
+            <input style="margin-left: 300px; background-color: green;width: 250px; color: white;" 
+            type="submit" name="" id="id_submit" value="Genarate Link">
+        </div>
+        </li>
+    </ul>
+</form>
+</main>
+
+</div>
+
+   
+
+</body>
+</html>
