@@ -1,0 +1,30 @@
+body
+{
+    font-family:sans-serif;
+}
+ 
+table
+{
+    border-collapse: collapse;
+    width: auto;
+    height: auto;
+}
+ 
+table, th, td
+{
+    border: 1px solid dodgerblue;
+    padding: 9px;
+    text-align: left;
+}
+ 
+th
+{
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+ 
+tr:nth-child(odd)
+{
+    background-color: Lavender;
+}
