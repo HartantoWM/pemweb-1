@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Logo{
+    width: 5rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+    padding: 0.5rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
